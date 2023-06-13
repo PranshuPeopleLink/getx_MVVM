@@ -12,13 +12,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: SplashScreen(),
-        ),
         body: Center(child: SplashScreen()),
       ),
       getPages: AppRoute.appRoute(),
