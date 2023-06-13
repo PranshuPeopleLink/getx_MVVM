@@ -15,6 +15,7 @@ class AppRoute {
             name: RouteName.loginScreen,
             page: () => HomePage(),
             transitionDuration: Duration(milliseconds: 250))
+            transitionDuration: const Duration(milliseconds: 250))
       ];
 
 }
