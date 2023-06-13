@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:html';
 import 'dart:io';
 import 'package:getx_mvvm/data/exceptions.dart';
 import 'package:http/http.dart' as http;
